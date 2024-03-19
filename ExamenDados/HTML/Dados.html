@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de dados</title>
+    <link rel="stylesheet" href="./../CSS/Dados.css">
+</head>
+<body>
+    <header><h2>Duelo de dados</h2></header>
+    <main>
+        <div id="marcador">0 vs 0</div>
+
+        <div id="contenedorDados">
+            <section id="dadosP1" class="dados">
+                <img class="dadosJugador1" src="./../IMG/d1.png">
+                <img class="dadosJugador1" src="./../IMG/d1.png">
+                <img class="dadosJugador1" src="./../IMG/d1.png">
+                <img class="dadosJugador1" src="./../IMG/d1.png">
+                <img class="dadosJugador1" src="./../IMG/d1.png">
+                <img class="dadosJugador1" src="./../IMG/d1.png">
+                <img class="dadosJugador1" src="./../IMG/d1.png">
+                <img class="dadosJugador1" src="./../IMG/d1.png">
+                <img class="dadosJugador1" src="./../IMG/d1.png">
+                <img class="dadosJugador1" src="./../IMG/d1.png">
+            </section>
+            <section id="dadosP2">
+                <img class="dadosJugador2" src="./../IMG/d1.png">
+                <img class="dadosJugador2" src="./../IMG/d1.png">
+                <img class="dadosJugador2" src="./../IMG/d1.png">
+                <img class="dadosJugador2" src="./../IMG/d1.png">
+                <img class="dadosJugador2" src="./../IMG/d1.png">
+                <img class="dadosJugador2" src="./../IMG/d1.png">
+                <img class="dadosJugador2" src="./../IMG/d1.png">
+                <img class="dadosJugador2" src="./../IMG/d1.png">
+                <img class="dadosJugador2" src="./../IMG/d1.png">
+                <img class="dadosJugador2" src="./../IMG/d1.png">
+            </section>
+        </div>
+
+        
+        <div>
+            <p id="Resultados">0 - 0</p>
+            <p id="ganadorTirada"></p>
+        </div>
+
+        <div id="config">
+            <article id="Jugadores">
+                <p>Jugador 1</p>
+                <p>VS</p>
+                <p>Jugador 2</p>
+            </article>
+
+            <article id="Ajustes">
+                <select id="player1">
+                    <option value="1">1 dado</option>
+                    <option value="2">2 dados</option>
+                    <option value="3">3 dados</option>
+                    <option value="4">4 dados</option>
+                    <option value="5">5 dados</option>
+                    <option value="6">6 dados</option>
+                    <option value="7">7 dados</option>
+                    <option value="8">8 dados</option>
+                    <option value="9">9 dados</option>
+                    <option value="10">10 dados</option>
+                </select>
+            
+                <button id="boton" type="button">TIRADAS RESTANTES: 3</button>
+            
+
+                <select id="player2">
+                    <option value="1">1 dado</option>
+                    <option value="2">2 dados</option>
+                    <option value="3">3 dados</option>
+                    <option value="4">4 dados</option>
+                    <option value="5">5 dados</option>
+                    <option value="6">6 dados</option>
+                    <option value="7">7 dados</option>
+                    <option value="8">8 dados</option>
+                    <option value="9">9 dados</option>
+                    <option value="10">10 dados</option>
+                </select>
+
+            </article>
+            
+            <div id="ganador">
+
+            </div>
+        </div>
+
+        
+
+
+        
+
+
+
+
+    </main>
+
+    <footer>
+        @maelmilvaques
+    </footer>
+
+    <script src="./../JS/Dados.js"></script>
+    
+</body>
+</html>
