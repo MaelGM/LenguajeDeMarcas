@@ -1,0 +1,33 @@
+Un dialogo muy icónico en las pantallas, de al menos 5 intervenciones.
+
+Cada frase u oración del diálogo debe estar contenida en un bocadillo, y en ambos lados, formato whatshap (por ejemplo).
+
+Ademas, cada bocadillo de cada personaje debe ser diferente, y por último, tienen que ser responsive.
+
+https://programadorwebvalencia.com/como-se-hace-un-bocadillo-de-comic-con-flecha-o-triangulo/
+
+https://lenguajecss.com/css/responsive-web-design/que-es/
+
+<header> --> centro
+<main> --> Centro
+	<div id = "conversacion">
+		<article class="frase1>
+</main>
+<footer>
+	<p id="pieDePagina">(autor)</p>
+</footer>
+
+
+
+
+				INTERESTELAR
+
+— Entonces hazme caso cuando te digo que el amor no es algo que hayamos inventado. Es observable, poderoso. Tiene que significar algo.
+
+— El amor tiene significado. Una utilidad social, una función social...
+
+— Amamos a personas que han muerto. ¿Qué utilidad social tiene eso?
+
+— Ninguna.
+
+— A lo mejor significa algo más. Algo que no alcanzamos a comprender aún. A lo mejor se trata de una prueba, de un artefacto de una dimensión superior que no percibimos conscientemente. Estoy cruzando el Universo por alguien a quien no he visto en una década y que probablemente esté muerto. El amor es lo único que somos capaces de percibir que transciende las dimensiones del tiempo y del espacio. A lo mejor deberíamos creer en eso, aunque aún no alcancemos a entenderlo.

@@ -1,0 +1,54 @@
+*{
+    color: white;
+}
+
+body{
+    background-image: url(./../../img/formulario/formularioCine/fondoFormulario.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{ 
+    word-spacing: 9px;
+    letter-spacing: 2px;
+}
+main{
+    min-height: 650px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+form{
+    vertical-align:middle;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+button{
+    color: black;
+    font-weight: bold;
+}
+
+.pago{
+    margin-right: 10px;
+}
+
+.input{
+    color: black;
+    margin-left: 10px;
+}
+
+#cookies{
+    margin-right: 15px;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Espectador</title>
+    <link rel="stylesheet" href="./../../css/formulario/formularioCine.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario Del Espectador</h1>
+    </header>
+    <main>
+       <from>
+                <div>
+                    <label id="Nombre">Nombre: </label>
+                    <input class="input" id="Nombre" type="text">
+                </div>
+                <div>
+                    <label id="Apellidos">Apellidos: </label>
+                    <input class="input" id="Apellidos" type="text">
+                </div>
+                <div>
+                    <label id="Teléfono">Teléfono: </label>
+                    <input class="input" id="Teléfono" type="number" onkeypress="if(this.value.length==9) return false;">
+                </div>
+                <div>
+                    <label id="Correo">Correo electrónico: </label>
+                    <input class="input" id="Correo" type="email" placeholder="xxx@gmail.com">
+                </div>
+                <div>
+                    <label id="fechaNac">Fecha de nacimiento: </label>
+                    <input class="input" id="fechaNac" type="date">
+                </div>
+                <div>
+                    <label id="Dirección">Dirección: </label>
+                    <input class="input" id="Dirección" type="text">
+                </div>
+                <div>
+                    <label id="CodPostal">Código postal: </label>
+                    <input class="input" id="CodPostal" type="number" onkeypress="if(this.value.length==5) return false;">
+                </div>
+                <div>
+                    <input id="cookies" type="checkbox">
+                    <label id="cookies">Acepto el uso de cookies</label>
+                </div>
+                <div>
+                    <input type="radio" name="pago">
+                    <label class="pago">VISA</label>
+                    <input type="radio" name="pago">
+                    <label class="pago">Mastercard</label>
+                    <input type="radio" name="pago">
+                    <label class="pago">Paypal</label>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+       </from>
+    </main>
+    <footer>
+        <p>Trabajo Formulario || Maël Grandguillot - 1 DAM</p>
+    </footer>
+</body>
+</html>

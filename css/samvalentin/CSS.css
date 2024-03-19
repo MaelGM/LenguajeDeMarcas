@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+header{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+#videoContainer, #imgContainer {
+    display: none;
+}
+
+#img{
+    width: 600px;
+    transition-duration: 5s;
+}
+
+.aparecer {
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+button {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}

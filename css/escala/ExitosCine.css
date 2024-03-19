@@ -1,0 +1,41 @@
+*{
+    font-family: Verdana;
+}
+header{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+footer{
+    vertical-align: text-bottom;
+    border: solid 2px red;
+    width: fit-content;
+}
+article{
+    display: inline-block;
+}
+.lineaHorizontal{
+    position: relative;
+    top: 450px;
+    left: 500px;
+    height: 5px;
+    width: 40%;
+    background-color: black;
+}
+.lineaVertical{
+    position: relative;
+    left: 150px;
+    top: 400px;
+    height: 5px;
+    width: 35%;
+    background-color: black;
+    transform: rotate(90deg);
+}
+.medio{
+    position: relative;
+    top: 400px;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    transform: rotate(90deg);
+}
