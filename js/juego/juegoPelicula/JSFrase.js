@@ -56,6 +56,7 @@ document.addEventListener("DOMContentLoaded", cargar(numPeliculas));
 function cargar(numPeliculas){
     numAleatorio = Math.floor(Math.random() * numPeliculas + 1);
     dificultad = 0;
+    vidasRestantes = 2;
     console.log(numAleatorio);
     textoIncompleto.innerHTML = frasesCineIncompletas[numAleatorio];
 

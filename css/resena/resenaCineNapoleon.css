@@ -117,3 +117,12 @@ footer{
         height: fit-content;
     }
 }
+
+@media (max-width: 500px){
+    main{
+        grid-template-columns: repeat(1,2fr);
+    }
+    .resena5, .resena4, .resena6{
+        display: none;
+    }
+}

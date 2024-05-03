@@ -47,6 +47,7 @@ function reiniciar(){
 function cargar(numPeliculas){
     numAleatorio = Math.floor(Math.random() * numPeliculas + 1);
     dificultad = 0;
+    vidasRestantes = 2;
     console.log(numAleatorio);
 
     vidas[0].style.display = "block";

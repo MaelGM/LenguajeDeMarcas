@@ -22,9 +22,6 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
 }
-form{
-    vertical-align:middle;
-}
 footer{
     position: absolute;
     bottom: 0;
