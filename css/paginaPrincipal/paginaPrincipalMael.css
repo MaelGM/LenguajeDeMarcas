@@ -391,7 +391,11 @@ footer{
     background-color:  rgb(10,28,58);
     padding: 20px;
     text-align: center;
-    box-shadow: 0 -10px 10px rgba(247, 248, 248, 0.1);
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.555);
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    transition: all ease 0.5s;
 }
 
 .aviso-cookies form {
@@ -403,16 +407,35 @@ footer{
     margin-bottom: 10px;
 }
 
+.aviso-cookies:hover{
+    transform: translateY(-2%);
+}
+
+
+#tituloCookies{
+    height: 2%;
+    padding: 2.5%;
+    margin-left: 7%;
+    background-color: rgba(255, 255, 255, 0.103);
+    width: 80%;
+    font-size: 20px;
+}
+
 .aviso-cookies button {
-    background-color: #007bff;
-    color: #090909;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    outline: none;
+    border: 2px solid rgba(0, 0, 0);
+    font-weight: bold;
+    width: 100px;
+    background-color: #f0f0f086;
+    border-radius: 20px;
+    color: rgb(232, 230, 227);
+    margin-left: 5px;
+    padding: 10px; /* Espacio interior del botón */
+    font-size: 15px; /* Tamaño del texto */
+    letter-spacing: 1px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave de cambio de color */
 }
 
 .aviso-cookies button:hover {
-    background-color: #0056b3;
+    background-color: #f0f0f049; /* Cambia el color de fondo al pasar el ratón */
 }
