@@ -377,3 +377,42 @@ footer{
         opacity: 1;
     }
 }
+
+/*ESTILOS PARA LAS COOKIES*/
+.aviso-cookies {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    background-color:  rgb(10,28,58);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -10px 10px rgba(247, 248, 248, 0.1);
+}
+
+.aviso-cookies form {
+    display: inline-block;
+}
+
+.aviso-cookies label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.aviso-cookies button {
+    background-color: #007bff;
+    color: #090909;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+.aviso-cookies button:hover {
+    background-color: #0056b3;
+}
