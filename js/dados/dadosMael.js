@@ -29,10 +29,8 @@ boton.addEventListener("click", function reproducir(){
     if(numTiradas == -1 || victoriasJ1 - victoriasJ2 == 2 || victoriasJ2 - victoriasJ1 == 2) {
         imprimirGanador();
     }
-    
     sumaJ1 = 0;
     sumaJ2 = 0;
-
     
     borrarDados();
     imprimirDados();

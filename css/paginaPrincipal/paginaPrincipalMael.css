@@ -193,6 +193,7 @@ main{
     margin: 10px;
     width: 20%;
     height: auto;
+    filter: drop-shadow(10px yellow);
 }
 
 aside{
